@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>“技”高一筹 &nbsp “疫”无所获</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div id="cover">
+      <div id="coverBG">
+        <div id="title">
+          <div id="title01">“技”高一筹</div>
+          <div id="title02">“疫”无所获</div>
+        </div>
+        <div id="desc">
+          <p id="p1">网站简介</p>
+          <p id="p2">本网站</p>
+          <p id="p3">实时更新广东省各市区的疫情状况</p>
+          <p id="p4">鉴别近期内传播的谣言</p>
+          <p id="p4">疫情同程查询</p>
+        </div>
+        <div id="tip">
+          <p id="tip1">tip: 需要连接网络才能查看实时数据噢~</p>
+        </div>
+        <div id="arrow">
+          <div id="arrow1"></div>
+          <div id="arrow2"></div>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <header>
+        <h1>“技”高一筹 “疫”无所获</h1>
+        <nav id="nav-box">
+          <ul id="nav-ul">
+            <li id="mapbtn">
+              <i>城市疫情播报</i><img src="images/trumpet.png" alt="" />
+            </li>
+            <li id="rumorbtn">
+              <i>谣言鉴别</i><img src="images/rumor.png" alt="" />
+            </li>
+            <li id="tracebtn">
+              <i>疫情同程查询</i><img src="images/trace.png" alt="" />
+            </li>
+            <div id="nav-after"></div>
+          </ul>
+        </nav>
+        <div id="showtime">
+          <p id="p1"></p>
+          <p id="p2"></p>
+        </div>
+      </header>
+      <div class="w"></div>
+      <div class="box_main">
+        <div id="scroll_box">
+          <!-- 城市数据 -->
+          <div id="main_1">
+            <!-- <h1>城市疫情播报</h1>
+          <img src="images/trumpet.png" alt="" class="trumpet"> -->
+            <div class="china"></div>
+            <div id="bar_box">
+              <div class="bar"></div>
+              <div id="close">
+                <span id="close1"></span>
+                <span id="close2"></span>
+              </div>
+            </div>
+          </div>
+          <!-- 谣言盒子 -->
+          <div id="main_2">
+            <!-- 谣言信息盒子 -->
+            <div id="rumorInfo"></div>
+            <!-- 谣言详细信息盒子 -->
+            <div id="rumor_Det">
+              <p id="rumor_title"></p>
+              <p id="rumor_dat"></p>
+              <p id="rumor_author"></p>
+              <p id="rumor_explain"></p>
+              <img src="" alt="" id="rumor_img" />
+              <p id="rumor_desc"></p>
+              <div id="rumor_close">
+                <span id="close1"></span>
+                <span id="close2"></span>
+              </div>
+            </div>
+          </div>
+          <!-- 同程盒子 -->
+          <div id="main_3">
+            <div id="trace-box">
+              <div id="left-nav"></div>
+              <div id="right-nav"></div>
+              <div id="trace-scroll-box">
+                <div class="current-box">
+                  <span id="tracedate"></span>
+                  <span id="address">
+                    <span id="pos_start"></span>
+                    <span id="traceno">
+                      <p id="no"></p>
+                      <img src="images/traceicon.png" alt="" id="traceicon" />
+                    </span>
+                    <span id="pos_end"></span>
+                  </span>
+                  <br />
+                  <span id="tracestart"></span>
+                  <span id="traceend"></span>
+                  <hr />
+                  <span id="memo"></span>
+                  <span id="rightbottom">
+                    <p id="who"></p>
+                    <p id="creat_time"></p>
+                    <p id="updated_time"></p>
+                  </span>
+                </div>
+                <div class="side-box">
+                  <span id="tracedate"></span>
+                  <span id="address">
+                    <span id="pos_start"></span>
+                    <span id="traceno">
+                      <p id="no"></p>
+                      <img src="images/traceicon.png" alt="" id="traceicon" />
+                    </span>
+                    <span id="pos_end"></span>
+                  </span>
+                  <br />
+                  <span id="tracestart"></span>
+                  <span id="traceend"></span>
+                  <hr />
+                  <span id="memo"></span>
+                  <span id="rightbottom">
+                    <p id="who"></p>
+                    <p id="creat_time"></p>
+                    <p id="updated_time"></p>
+                  </span>
+                </div>
+                <div>
+                  <span id="tracedate"></span>
+                  <span id="address">
+                    <span id="pos_start"></span>
+                    <span id="traceno">
+                      <p id="no"></p>
+                      <img src="images/traceicon.png" alt="" id="traceicon" />
+                    </span>
+                    <span id="pos_end"></span>
+                  </span>
+                  <br />
+                  <span id="tracestart"></span>
+                  <span id="traceend"></span>
+                  <hr />
+                  <span id="memo"></span>
+                  <span id="rightbottom">
+                    <p id="who"></p>
+                    <p id="creat_time"></p>
+                    <p id="updated_time"></p>
+                  </span>
+                </div>
+                <div>
+                  <span id="tracedate"></span>
+                  <span id="address">
+                    <span id="pos_start"></span>
+                    <span id="traceno">
+                      <p id="no"></p>
+                      <img src="images/traceicon.png" alt="" id="traceicon" />
+                    </span>
+                    <span id="pos_end"></span>
+                  </span>
+                  <br />
+                  <span id="tracestart"></span>
+                  <span id="traceend"></span>
+                  <hr />
+                  <span id="memo"></span>
+                  <span id="rightbottom">
+                    <p id="who"></p>
+                    <p id="creat_time"></p>
+                    <p id="updated_time"></p>
+                  </span>
+                </div>
+                <div>
+                  <span id="tracedate"></span>
+                  <span id="address">
+                    <span id="pos_start"></span>
+                    <span id="traceno">
+                      <p id="no"></p>
+                      <img src="images/traceicon.png" alt="" id="traceicon" />
+                    </span>
+                    <span id="pos_end"></span>
+                  </span>
+                  <br />
+                  <span id="tracestart"></span>
+                  <span id="traceend"></span>
+                  <hr />
+                  <span id="memo"></span>
+                  <span id="rightbottom">
+                    <p id="who"></p>
+                    <p id="creat_time"></p>
+                    <p id="updated_time"></p>
+                  </span>
+                </div>
+                <div>
+                  <span id="tracedate"></span>
+                  <span id="address">
+                    <span id="pos_start"></span>
+                    <span id="traceno">
+                      <p id="no"></p>
+                      <img src="images/traceicon.png" alt="" id="traceicon" />
+                    </span>
+                    <span id="pos_end"></span>
+                  </span>
+                  <br />
+                  <span id="tracestart"></span>
+                  <span id="traceend"></span>
+                  <hr />
+                  <span id="memo"></span>
+                  <span id="rightbottom">
+                    <p id="who"></p>
+                    <p id="creat_time"></p>
+                    <p id="updated_time"></p>
+                  </span>
+                </div>
+                <div>
+                  <span id="tracedate"></span>
+                  <span id="address">
+                    <span id="pos_start"></span>
+                    <span id="traceno">
+                      <p id="no"></p>
+                      <img src="images/traceicon.png" alt="" id="traceicon" />
+                    </span>
+                    <span id="pos_end"></span>
+                  </span>
+                  <br />
+                  <span id="tracestart"></span>
+                  <span id="traceend"></span>
+                  <hr />
+                  <span id="memo"></span>
+                  <span id="rightbottom">
+                    <p id="who"></p>
+                    <p id="creat_time"></p>
+                    <p id="updated_time"></p>
+                  </span>
+                </div>
+                <div>
+                  <span id="tracedate"></span>
+                  <span id="address">
+                    <span id="pos_start"></span>
+                    <span id="traceno">
+                      <p id="no"></p>
+                      <img src="images/traceicon.png" alt="" id="traceicon" />
+                    </span>
+                    <span id="pos_end"></span>
+                  </span>
+                  <br />
+                  <span id="tracestart"></span>
+                  <span id="traceend"></span>
+                  <hr />
+                  <span id="memo"></span>
+                  <span id="rightbottom">
+                    <p id="who"></p>
+                    <p id="creat_time"></p>
+                    <p id="updated_time"></p>
+                  </span>
+                </div>
+                <div>
+                  <span id="tracedate"></span>
+                  <span id="address">
+                    <span id="pos_start"></span>
+                    <span id="traceno">
+                      <p id="no"></p>
+                      <img src="images/traceicon.png" alt="" id="traceicon" />
+                    </span>
+                    <span id="pos_end"></span>
+                  </span>
+                  <br />
+                  <span id="tracestart"></span>
+                  <span id="traceend"></span>
+                  <hr />
+                  <span id="memo"></span>
+                  <span id="rightbottom">
+                    <p id="who"></p>
+                    <p id="creat_time"></p>
+                    <p id="updated_time"></p>
+                  </span>
+                </div>
+                <div>
+                  <span id="tracedate"></span>
+                  <span id="address">
+                    <span id="pos_start"></span>
+                    <span id="traceno">
+                      <p id="no"></p>
+                      <img src="images/traceicon.png" alt="" id="traceicon" />
+                    </span>
+                    <span id="pos_end"></span>
+                  </span>
+                  <br />
+                  <span id="tracestart"></span>
+                  <span id="traceend"></span>
+                  <hr />
+                  <span id="memo"></span>
+                  <span id="rightbottom">
+                    <p id="who"></p>
+                    <p id="creat_time"></p>
+                    <p id="updated_time"></p>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div id="navLeft">
+          <span id="span1"></span>
+          <span id="span2"></span>
+        </div>
+        <div id="navRight">
+          <span id="span1"></span>
+          <span id="span2"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <!-- echarts -->
+    <script src="./js/echarts.min.js"></script>
+    <!-- china.js -->
+    <script src="./js/china.js"></script>
+    <!-- FileSaver -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/FileSaver.js/1.0.0/FileSaver.min.js"></script>
+    <!-- animation -->
+    <script src="./js/MingAnimation.js"></script>
+    <!-- app.js -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
